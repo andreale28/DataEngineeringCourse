@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "week1-intro"
+version = "0.1.0"
+description = ""
+authors = ["andreale28 <lhson43680@gmail.com>"]
+readme = "README.md"
+packages = [{include = "week1_intro"}]
+
+[tool.poetry.dependencies]
+python = "3.10.6"
+pgcli = "^3.5.0"
+jupyterlab = "^3.5.3"
+pandas = "^1.5.3"
+sqlalchemy = "^2.0.0"
+psycopg2 = "^2.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
